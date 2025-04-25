@@ -1,0 +1,186 @@
+body {color:#666666;
+font-family:Arial, Helvetica, Sans-serif;
+background-color: #FFFFFF;}
+
+header {background-color:#00B386;
+color:#FFFFFF;
+height:175px;
+text-align: center;
+padding-top:30px;
+padding-left: 3em;
+background-image:url(assets/pasture.png);
+background-repeat: no-repeat;
+background-position:right;
+text-indent: 1em;
+margin-top:15px;
+line-height:400%;}
+
+nav {font-size: 120%;
+padding:1.5em;
+float:left;
+width:160px;
+font-weight:bold;}
+
+h2 {color:#00664D;
+text-shadow: 1px 1px #CCCCCC;
+font-family:Georgia, Times New Roman, serif;}
+
+dt {color:#00664D;}
+
+.barn {color:#70DBDB;
+font-weight:bold;}
+
+h1{margin-bottom:0;
+margin-top:0;
+font-size: 3em;
+letter-spacing:0.25em;
+font-family:Georgia, Times New Roman, serif;}
+
+#homeImage { background-image: url(assets/sunsetHorse.png);
+    	   height: 300px;
+		   background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-left:190px;}
+#wrapper {margin:auto;
+width:80%;
+min-width: 900px;
+max-width: 2050px;
+box-shadow: 4px 4px #133926;
+background-image: linear-gradient(#FFFFFF, #0C5442);
+border-color: #003300;
+border-style: solid;
+border-width: 1.5pt;}
+
+main {padding-top:1px;
+padding-right:20px;
+padding-bottom:20px;
+padding-left:30px;
+background-color:#FFFFFF;
+margin-left:190px;
+display:block;
+}
+
+footer{padding: 15px;
+text-align:center;
+font-size:75%;
+font-style:italic;
+font-family:Georgia, Times New Roman, serif;
+background-color:#FFFFFF;
+margin-left:190px;}
+
+#boardImage { background-image: url(assets/fenceline.png);
+             height: 300px;
+		   background-repeat: no-repeat;
+		   background-size: 100% 100%;
+		   margin-left:190px;}
+
+#trainingImage { background-image: url(assets/BayBella.png);
+             height: 300px;
+		   background-repeat: no-repeat;
+		   background-size: 100% 100%;
+		   margin-left:190px;}
+
+a:link {text-decoration:none;
+color:#00664D;}
+
+h3{font-family:Georgia, Times New Roman, serif;
+color:#006646;}
+
+main ul{list-style-image: url(assets/marker.gif);}
+
+#contact{font-size:90%;}
+
+*{box-sizing: border-box;}
+
+nav ul{margin:0;
+padding-left:0;
+font-size:1.2em;
+list-style-type:none;}
+
+a:visited{color:#7A7A52;}
+
+a:hover{color:#FFFFFF;}
+
+#mobile {display: none;}
+#desktop {display: inline;}
+
+
+@media only screen and (max-width: 37.5em) {
+	#mobile {display: inline;}
+	#desktop {display: none;}
+	main{padding: 0.1em 1em;
+	font-size:90%;}
+	h1{font-size:2em;}
+	nav{padding:0px;}
+	nav li{display:block;
+	margin:0px;
+	border-bottom: solid 2px #330000;}
+	nav a{display:block;}
+	#homeImage, #boardImage, #trainingImage{
+		background-image:none;
+	height:0px;}
+	label{float:none; text-align:left;}
+	input[type="submit"]{margin-left:0;}
+}
+
+header, main, nav, footer,
+ figure, figcaption, aside,
+ section, article {display:block;}
+ 
+@media only screen and (max-width: 64em){
+	body{margin:0;
+	background-color:#FFFFFF;}
+	#wrapper{min-width:0; 
+	width:auto;
+	box-shadow:none;
+	border:none;}
+	header{padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:0;
+	height:auto;}
+	h1{letter-spacing:0.1em;}
+	main{margin-left:0;}
+	nav{float:none;
+	width:auto;
+	text-align:center;
+	padding:0.5em;}
+	nav li{display:inline;
+	padding: 0.25em 0.75em;}
+	#homeImage, #boardImage, #trainingImage{margin-left:0;
+	height:200px;}
+	footer{margin-left:0;}
+}
+
+table {border:1.5px #006600;
+border-collapse: collapse;}
+
+td{padding:0.5em;
+border:1px solid #006600;}
+
+th{padding:0.5em;
+border:1px solid #006600;}
+
+tr:nth-of-type(odd){background: #ECF9EC;}
+
+label{float:left;
+display:block;
+text-align:right;
+width:125px;
+padding-right:2em;}
+
+input{display:block;
+margin-bottom:20px;}
+
+textarea{display:block;
+margin-bottom:20px;}
+
+input[type="submit"]{margin-left:135px;}
+
+nav a {text-decoration: none;
+transition: color 3s ease-out;}
+
+figure img{background-image: url(assets/PennyDark.jpg);}
+
+
+
+
