@@ -188,7 +188,6 @@ a:hover {
   input[type="submit"] {
     margin-left: 0;
   }
-}
 
 header,
 main,
@@ -200,6 +199,9 @@ aside,
 section,
 article {
   display: block;
+}
+
+#gallery{display:none;}
 }
 
 @media only screen and (max-width: 64em) {
